@@ -52,7 +52,7 @@ var valid = false;
 if ( msg == 'valid') {
     valid = true;
 } else {
-    valid = false;
+    valid =tru;
 };
 
 //var blockClass = msg === 'valid' ? 'valid' : 'error';
