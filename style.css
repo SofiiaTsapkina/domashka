@@ -1,0 +1,27 @@
+.notification {
+    --notification-color: rgb(241, 237, 237);
+    width: 200px;
+    height: 50px;
+    background-color: var(--notification-color) ;
+}
+
+.notification.error {
+    --notification-color: red;
+
+}
+
+.notification.warning {
+    --notification-color: rgb(25, 148, 41);
+
+}
+
+.notification.info {
+    --notification-color: rgb(97, 53, 156);
+
+}
+
+.notification.confirm {
+    --notification-color: rgb(34, 37, 30);
+
+}
+
